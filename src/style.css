@@ -1,0 +1,467 @@
+
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+}
+
+body {
+    font-family: 'Gotham-Medium';
+}
+
+header {
+    display: flex;
+}
+
+.section1 {
+   width: 40%;
+    height: 110px;
+    background-color: #334e9e;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    display: flex;
+    width: 240px;
+    height: 93px;
+    margin-top: 9px;
+    margin-left: 140px;
+}
+
+.section2 {
+    width: 60%;
+    height: 110px;
+}
+
+.section2 .section2_1 {
+   width: 100%;
+   background-color: #fff;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2 .section2_1 ul {
+    display: flex;
+    align-items: center;
+    color:hwb(0 50% 50%);
+}
+
+.section2 .section2_1 .menu {
+    margin-right: 18px;
+    display: flex;
+    gap: 60px;
+    width: 100%;
+    margin-left: 45px;
+}
+
+.section2 .section2_1 .lang {
+    gap: 10px;
+    margin-right: 300px;
+    margin-left: 80px;
+    color: black;
+}
+
+.ios {
+    width: 17px;
+}
+
+.android {
+    width: 17px;
+}
+
+.tel {
+    width: 5px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.sptl {
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+
+}
+
+.ty {
+    width: 25px;
+    margin-left: 5px;
+}
+
+
+.menu2 a {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Gotham-Medium';
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 17px !important;
+    display: block;
+}
+
+
+.cnbns span{
+    font-size: small;
+    height: 50px;
+}
+
+
+.contact {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+.section2 .section2_2 {
+    background-color: #00ACEC;
+    width: 100%;
+    height: 55px;
+    display: flex;
+
+}
+
+.section2 .section2_2 ul {
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 30px;
+    margin-left: 30px;
+    font-size: 18px;
+
+}
+
+/* header end*/
+
+.container {
+    padding-top: 50px;
+}
+
+.bar {
+    height: 46px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bar .bugun{
+    background-color: #334e9e;
+    color: #fff;
+}
+
+.bar a {
+    text-decoration: none;
+    border-radius: 5px 5px 0 0;
+    padding: 15px 20px 12px 20px;
+    font-size: 18px;
+    line-height: 21px;
+    display: inline-block;
+    color: black;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bar2 {
+    max-width: 100%;
+    height: 100px;
+    background-color: #334e9e;
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.bar2 select{
+    margin-top: 7px;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0 15px 0 20px;
+    margin-right: 40px;
+    border-radius: 20px;
+    min-width: 190px;
+    height: 40px;
+    border: none;
+}
+
+/* movies start*/
+
+
+
+.mov1_header {
+    text-align: center;
+}
+
+.mov1_header h2{
+    margin-top: 40px !important;
+    max-height: 62px;
+    background: #F3F3F3;
+    width: 259px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 40px;
+    font-weight: 400;
+    font-size: larger;
+}
+
+.movies-container{
+width: 970px;
+margin-top: 10px;
+}
+
+.movies_box1{
+    display: flex;
+    gap: 30px;
+    margin-left: 200px;
+}
+
+.movies_box2{
+    display: flex;
+    gap: 30px;
+    margin-left: 200px;
+}
+
+.movies_box3{
+    display: flex;
+    gap: 30px;
+    margin-left: 200px;
+}
+
+.movies_box4{
+    display: flex;
+    gap: 30px;
+    margin-left: 200px;
+}
+
+.movies_box5{
+    display: flex;
+    gap: 30px;
+    margin-left: 200px;
+}
+
+.mov1_img{
+    width: 259px;
+}
+
+.mov1{
+    width: 259px;
+}
+
+
+.mov1_img img{
+    height: 370px;
+}
+
+.mov1_icons img{
+    height: 44px;
+    width: 48px;
+}
+
+.mov1_icons{
+    display: flex;
+    justify-content: center;
+    width: 259px;
+}
+
+.mov1_footer{
+    background: #F3F3F3;
+    padding: 20px 0;
+    text-align: center;
+    width: 259px;
+}
+
+#onsekkiz{
+    border-radius: 50%;
+    background: #D0021B;
+    width: 40px;
+    height: 40px;
+    font-family: 'Gotham-Medium';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 9px 5px;
+}
+
+#seans{
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 19px;
+    background: #334E9E;
+    padding: 12px 20px;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+/*movies container end*/
+
+.bgimg{
+    margin-top: 120px;
+    width: 100%;
+    height: 450px;
+    background-image: url(https://cinemaplus.az/site/templates/images/home_slider_new_bg.jpg);
+    margin-bottom: 70px;
+}
+
+.bgimg img{
+    height: 440px;
+    width: 1450px;
+}
+/* bgimg end*/
+
+.news_container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.news_header{
+    text-align: center;
+}
+
+.news_header h2{
+    background-color: #334E9E;
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+    padding: 15px 20px 12px 20px;
+    font-size: 18px;
+    line-height: 21px;
+    display: inline-block;
+}
+
+.news_body{
+    background-color: #334e9e;
+     width: 100%;
+    height: 660px;
+}
+
+.news_image {
+    margin-bottom: 15px;
+}
+
+.news_image img{
+    width: 270px;
+    height: 140px;
+}
+
+.news_date{
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 19px;
+    margin-bottom: 12px;
+}
+
+.news_body h3 { 
+font-size: 20px;
+color: #FFFFFF;
+letter-spacing: 0px;
+line-height: 26px;
+}
+
+.news_desc{
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 19px;
+    margin-top: 11px;
+}
+
+.nws{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.nws a{
+    color: #fff;
+}
+/* news end*/
+
+footer{
+    
+}
+ 
+.cols{
+    display: flex;
+    border-bottom: 2px solid white;
+    width: 1100px;
+    padding-bottom: 20px;
+}
+
+.ftrow{
+   background-image: url("./img/prices_bg.jpg");
+   background-repeat: no-repeat;
+    width: 100%;
+    height: 210px;
+    padding: 20px 200px;
+    
+}
+
+.ftrow .col1{
+    display: flex;
+    height: 85px;
+    gap: 70px;
+    padding-right: 100px;
+    border-right: 2px solid white;
+    color: #fff;
+}
+
+i{
+    border: 2px solid white;
+    width: 40px;
+    height: 30px;
+    padding-top: 5px;
+    color: white;
+}
+
+.ftrow .col2{
+    display: flex;
+    height: 85px;
+    gap: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    text-align: center;
+    border-right: 2px solid white;
+ }
+
+.ftrow .col3{
+   height: 85px;
+   gap: 30px;
+  padding: 10px 100px 30px 50px ;
+   display: flex;
+ }
+
+ .source{
+    display: flex;
+    color: white;
+    margin-top: 20px;
+ }
+
+ .source a{
+    color: white;
+    margin-top: 10px;
+ }
+
+ .vipimg{
+    margin-left: 700px;
+ }
+
+ .vipimg img{
+    width: 120px;
+    height: 50px;
+ }
+
+ /* hover start*/
+  .menu2 a:hover{
+    background-color: #334E9E;
+  }
